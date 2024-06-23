@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="assignment-02.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class ="infocontainer" >
+      <p style="text-align: center; font-family: Orbitron"  id="info">Press start to begin</p>
+    </div>
+
+    <div class ="container">
+
+    <div class ="greencontainer">
+    <input type="button" class="greenpad" id="green" />
+    </div>
+
+   <div class ="redcontainer">
+   <input type="button" class="redpad" id ="red"  />
+   </div>
+
+   <div class ="yellowcontainer">
+   <input type="button" class="yellowpad" id="yellow"  />
+   </div>
+
+   <div class ="bluecontainer">
+   <input type="button" class="bluepad" id="blue" />
+   </div>
+
+   <div class ="center"></div>
+   <input type="button" style="font-family: Orbitron" class="leftbox" value="0" id="top"/>
+   <input type="button" style="font-family: Orbitron" class="startbutton" id="startbutton" value="Start"  />
+   <input type="button" style="font-family: Orbitron"  class="rightbox" id="current"value="0"/>
+
+  <div class="led" id ="led"></div>
+   </div>
+   
+    
+</div>
+    <script src="assignment-02.js">
+
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,264 @@
+/* main container we stick all div's onto */
+.container {
+    width: 300px;
+    height: 300px;
+    /* outline: solid 1px black; */
+    margin: 0 auto;
+    z-index: 0;
+}
+/* info container describing whats happening i.e waiting  */
+.infocontainer {
+  width: 300px;
+  height: 22px;
+  /* outline: solid 1px black; */
+  margin: 0 auto;
+  z-index: 0;
+}
+/* creates coloured shapes */
+.greenpad{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius:50px;
+    left: 5px;
+    top: 5px;
+    
+}
+.redpad{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(127, 0, 0);
+    border-radius:50px;
+    left: 5px;
+    top: 5px;
+  
+}
+.yellowpad{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: #8B8000;
+    border-radius:50px;
+ 
+    left: 5px;
+    top: 5px;
+}
+.bluepad{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 128);
+    border-radius:50px;
+ 
+    left: 5px;
+    top: 5px;
+  
+}
+.startbutton{
+    position: relative;
+    
+    width: 80px;
+    height: 25px;
+    
+    left: 74px;
+    top: -110px;
+  
+}
+
+/*top score display*/
+.leftbox{
+    position: relative;
+    font-family: "Kimberley", sans-serif ;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    left: 74px;
+    top: -110px;
+  
+}
+/*current score display*/
+.rightbox{
+    position: relative;
+    
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    left: 74px;
+    top: -110px;
+  
+}
+.led{
+    position: relative;
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius:50px;
+ 
+    left: 148px;
+    top: -105px;
+  
+}
+
+
+/* creates black background for each shape */
+.greencontainer{
+
+    position: relative;
+    
+    height:110px;
+    
+    width: 110px;
+    
+    z-index: 1;
+    margin-left: 0px;
+    margin-top:0px;
+    border-radius:55px;
+    background: black;
+    
+    }
+.redcontainer{
+
+  position: relative;
+        
+  height:110px;
+    
+  width:110px;
+        
+  z-index:1;
+  border-radius:55px;
+  background: black;
+        
+  margin-left: 190px;
+  margin-top:-110px;
+
+        }
+.yellowcontainer{
+
+  position: relative;
+  
+  height:110px;
+
+  width: 110px;
+  
+  z-index: 1;
+  border-radius:55px;
+  background: black;
+  
+  margin-left: 0px;
+  margin-top:80px;
+  
+  }
+.bluecontainer{
+
+  position: relative;
+    
+  height:110px;
+
+  width: 110px;
+    
+  z-index: 1;
+  background: black;
+  border-radius:55px;
+  margin-left: 190px;
+  margin-top:-110px;
+
+    
+    }
+
+  /* center shape contains scores and start button etc*/
+.center{
+
+  position: relative;
+  
+  width: 200px;
+  border: 2px solid gray;
+  height: 200px;
+  
+  z-index: -3;
+  
+  background: black;
+  
+  margin-left: 50px;
+  margin-top:-250px;
+  border-radius:100px;
+    }
+       
+/* .triangle {
+    position: relative;
+    height: 320px;
+    clip-path: polygon(50% 0%, 0% 250%, 100% 250%);
+  }
+  
+  .triangle div {
+  
+    margin:0 auto 10px;
+    color: black;
+    text-align: center;
+   
+    line-height: 100px;
+  }
+  .triangle .red {
+    width:100%;
+    height: 100px;
+    background: 	red;
+    line-height: 160px;
+  }
+  .red:hover  {
+    .addbutton_red{
+      display:inline;
+    }
+    .minusbutton_red{
+        display:inline;
+    }
+
+    /* background: rgba(255, 0, 0, 0.5); */
+  /* }
+  
+  .triangle .orange {
+    width:100%;
+    height: 100px;
+    background: orange;
+  }
+  .orange:hover  {
+    .addbutton_orange{
+      display:inline;
+    }
+    .minusbutton_orange{
+        display:inline;
+    }
+    /* background: rgba(255, 166, 0, 0.5); */
+  
+  /* .triangle .yellow {
+    width:100%;
+    height: 100px;
+    background: 	yellow
+    ;
+    
+    
+  }
+  .yellow:hover  {
+    .addbutton_yellow{
+      display:inline;
+    }
+    .minusbutton_yellow{
+        display:inline;
+    } */
+    /* background: rgba(255, 255, 0, 0.5); */
+
+
+
+    /* .triangle:hover div {
+      color: white;
+    }
+  
+  .triangle:hover .mid {
+    top: 110px;
+    background: green;
+  }
+  
+  .triangle:hover .bottom {
+    top: 220px;
+    background: blue;
+  } */
